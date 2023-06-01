@@ -1,0 +1,42 @@
+body{
+    background-color: lightgray;
+    color:darkblue;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 36px;
+    text-align: center;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    padding: 20px;
+    margin: 5px 10px 5px 10px;
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    
+    text-align: left;
+    padding: 20px;
+    margin: 5px 10px 5px 10px;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.column{
+    flex: 1;
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    .column{
+        flex: 100%;
+    }
+}
